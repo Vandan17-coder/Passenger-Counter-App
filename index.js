@@ -17,3 +17,8 @@ function save(){
     countEl.innerText = 0;
     count = 0;
 }
+
+function decrement(){
+    count--;
+    countEl.innerText = count;
+}
